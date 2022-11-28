@@ -324,3 +324,35 @@ display: flex;
     color: blue;
     
 }
+.footer-row2{
+    display: flex;
+    border-top: 1px solid #454d5e;
+    height: 100px;
+    
+}
+.footer-row2 a{
+    text-decoration: none;
+}
+.row2-left{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    
+}
+.row2-left img{
+    width: 15px;
+    height: 15px;
+}
+.row2-left h6{
+    padding-left: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+.row2-left span{
+    display: flex;
+}
+.row2-right img{
+padding-top: 40px;
+}
