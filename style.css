@@ -134,3 +134,17 @@ section a{
 .cate-col h5:hover {
     color: #2874f0;
 }
+
+
+.banner {
+
+    margin: 10px 5px;
+    cursor: pointer;
+
+}
+
+
+.slider img {
+
+    width: 100%;
+}
