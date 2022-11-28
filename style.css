@@ -148,3 +148,111 @@ section a{
 
     width: 100%;
 }
+
+
+.card {
+    box-shadow: rgb(177, 174, 174) 0px 0px 5px 1px;
+    padding: 10px 0px;
+    margin: 10px 5px;
+
+}
+
+
+.view-button button {
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #2874f0;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+
+.title-col {
+    width: 150px;
+    height: 100%;
+
+
+}
+
+.title-col h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 50px;
+    text-align: center;
+
+
+}
+.title-col h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 50px;
+    
+
+}
+
+
+.sub-row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+
+.common-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-height: 366px;
+    margin: 10px 0px;
+
+}
+
+.common-col {
+    text-align: center;
+    line-height: 22px;
+}
+
+.common-col img {
+    width: 80px;
+    height: 200px;
+    transition: 300ms;
+}
+
+.common-col img:hover {
+    transform: scale(0.9);
+}
+
+.common-col h3,
+h4,
+h6 {
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.common-col h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.common-col h4 {
+    color: green;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.common-col h6 {
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.common-col img {
+    width: 125px;
+    height: 150px;
+}
