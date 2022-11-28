@@ -256,3 +256,71 @@ h6 {
     width: 125px;
     height: 150px;
 }
+
+footer {
+    background-color: #172337;
+    height: 332;
+}
+
+
+
+
+.left-footer {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    
+
+}
+
+li {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 8px 0;
+    list-style: none;
+    color: white;
+    
+
+}
+
+ul {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    
+}
+
+.footer-row1 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-row1{
+display: flex;
+}
+.left-footer a:hover{
+    text-decoration: underline;
+}
+
+.right-footer{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    
+    
+}
+.line{
+    height: 80%;
+    border-left:1px  solid #454d5e ;
+}
+.right-footer h6{
+    color: white;
+}
+.register a{
+    color: blue;
+    
+}
